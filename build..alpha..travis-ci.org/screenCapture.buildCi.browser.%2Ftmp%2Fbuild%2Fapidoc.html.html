@@ -72,15 +72,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.bashful.toString">
-            function <span class="apidocSignatureSpan">bashful.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -137,37 +128,6 @@
   EventEmitter.init.call(this);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.bashful.toString" id="apidoc.element.bashful.toString">
-        function <span class="apidocSignatureSpan">bashful.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-Bash.prototype.createStream = function () {
-var self = this;
-
-var line = '';
-var mode = null;
-
-var input = through(function write (buf) {
-    if (typeof buf !== 'string') buf = buf.<span class="apidocCodeKeywordSpan">toString</span>('utf8');
-    if (self.current) self.current.write(buf);
-
-    for (var i = 0; i &lt; buf.length; i++) {
-        var c = buf.charCodeAt(i);
-        if (self.current) {}
-        else if (mode === 'escape' &amp;&amp; c === 0x5b) {
-            mode = '[';
-...</pre></li>
     </ul>
 
 
