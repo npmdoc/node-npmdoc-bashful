@@ -1,6 +1,6 @@
 # npmdoc-bashful
 
-#### api documentation for  [bashful (v1.8.0)](https://github.com/substack/bashful)  [![npm package](https://img.shields.io/npm/v/npmdoc-bashful.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bashful) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bashful.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bashful)
+#### basic api documentation for  [bashful (v1.8.0)](https://github.com/substack/bashful)  [![npm package](https://img.shields.io/npm/v/npmdoc-bashful.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bashful) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bashful.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bashful)
 
 #### parse and execute bash without doing any IO
 
@@ -71,7 +71,8 @@
     "scripts": {
         "test": "tape test/*.js"
     },
-    "version": "1.8.0"
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
 
